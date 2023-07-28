@@ -25,15 +25,15 @@ const Coursecard = (target) =>{
             <div>
                 <h3 onClick={clicked} className="coursetopic">{value?<IoIosArrowDropup className="courseicon"/>:<IoIosArrowDropdown className="courseicon"/>}{target.type}</h3>
                 <div className={value?"shows":"hide"}>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>00:57</span></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>00:57</span></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link></p>
-                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What You'll Get in This Course</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>01:59</span></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What is Angular</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>5:00</span></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>Angular vs Angular 2</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>3:06</span></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>Project Setup</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>10:01</span></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>Creating First App</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>8:57</span></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>The Course Structure</Link></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>How do I get more out of thid Course</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>05:37</span></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>What is TypeScript</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>23:58</span></p>
+                    <p className="intact"><PiTelevisionSimpleDuotone size={30} style={{marginRight:"2%"}}/><Link>A basic Project</Link><span style={{marginLeft:"50%"}}><Link style={{marginRight:"5%"}}>Preview</Link>35:17</span></p>
 
                 </div>
             </div>
