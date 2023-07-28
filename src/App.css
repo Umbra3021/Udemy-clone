@@ -1,0 +1,700 @@
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+
+.form-control{
+  width: 480px;
+  height: 60px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #2d9fd9;
+  color: #a0d18c;
+  padding-left: 10px;
+  background: url("./image/icons8-search.svg");
+  background-size: 35px 35px;
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  padding: 9px 4px 9px 70px;
+
+}
+.navbar-brand{
+  background-color: transparent;
+}
+.ite{
+  font-size: 15px;
+  font-family: 'Unbounded', cursive;
+}
+.nav-link{
+  font-size: 14x;
+  font-family: 'Unbounded', cursive;
+}
+
+.btn{
+  height: 50px;
+  width: 100px;
+  border: 1px;
+  border: 1px solid black;
+}
+
+.btn2{
+  height: 50px;
+  width: 100px;
+  border: 1px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.world{
+  height:50px;
+  width:60px;
+}
+
+.head{
+  background-color: black;
+  padding-bottom: 3%;
+}
+
+.head-1{
+  margin-left: 5%;
+  color: aliceblue;
+}
+
+.head-2{
+  margin-left: 5%;
+  color: white;
+}
+.loc{
+  font-size: 20px;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  color: purple;
+}
+
+.title{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.des{
+  font-size: 25px;
+}
+
+.head-0{
+  position: relative;
+}
+
+.sticky{
+  background-color: #d6e5ec;
+  position: fixed;
+  right: 0;
+  top:10px;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  width: 450px;
+  height: 650px ;
+  z-index: 1;
+}
+
+.contain{
+position: absolute;
+margin-top: 19%;
+background-color: black;
+right: 0;
+margin-right: 5%;
+width: 450px;
+height: 650px;
+background-color: #d6e5ec;
+z-index: 1;
+ 
+}
+
+.end{
+  width: 450px;
+  height: 650px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 350%;
+  right: 0;
+  margin-right: 5%;
+}
+
+.head-0 img{
+  height: 250px;
+  width: 450px;
+  position: absolute;
+  margin-top: 4%;
+  right: 0;
+  margin-right: 5%;
+}
+
+.no-img{
+  display: none;
+
+}
+
+
+.seller{
+  float: left;
+  margin-right: 1%;
+  height: 30px;
+  width: 100px;
+  background-color: yellow;
+}
+.seller p{
+  font-size: 15px;
+  padding-top: 3px;
+  padding-left: 10px;
+  margin-bottom: 0 !important;
+  color:black;
+}
+#home{
+  margin-top: 5%;
+  margin-left: 5%;
+  line-height: 90%;
+  color: black;
+}
+
+.review{
+  font-size: 18px;
+}
+
+.rating{
+  color: purple;
+}
+
+.author{
+  margin-top: 1%;
+  font-size: 18px;
+}
+
+.author-link{
+  color: purple;
+}
+
+.side-nav{
+  margin-left: 3%;
+}
+.icon{
+  margin-right: 3px;
+}
+.info{
+  margin-left: 2%;
+}
+.header-3{
+  font-size: 18px;
+  
+}
+.nav-tabs .nav-link{
+  background-color: transparent;
+  color: grey;
+}
+.nav-tabs .nav-link.active{
+  border-bottom: 2px solid black;
+  background-color: transparent;
+}
+.nav-link:hover{
+  color: black;
+}
+
+.tab-pane{
+  font-size: 40px;
+}
+.discount{
+  font-size: 30px;
+  margin-bottom: 1%;
+}
+.sale{
+  font-size: 20px;
+  color: maroon;
+}
+
+.buy{
+  margin-top: 3%;
+  width: 380px;
+  height: 70px;
+  font-size: 20px;
+  background-color: purple;
+  color: white;
+}
+
+.buy-info{
+  font-size: 15px;
+  text-align: center;
+  color: rgb(87, 85, 85);
+}
+
+.links{
+  font-size: 20px;
+  float: left;
+  margin-right: 8%;
+  border-bottom-color: 1px solid black;
+}
+
+
+
+
+
+
+
+.learn{
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 35%;
+  padding-bottom: 3%;
+  border: 1px solid grey;
+}
+
+.learn h3{
+  padding-left: 5%;
+  padding-top: 2%;
+  font-size: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  margin-top: 2%;
+  padding-left: 5%;
+ 
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  padding-right: 5%;
+  text-align:start;
+} 
+
+.grid-item li{
+  list-style:none;
+}
+.grid-item li::before{
+  content: '✔';
+}
+
+.Course{
+  margin-left: 2%;
+  margin-right: 35%;
+}
+
+.Course h3{
+  margin-top: 5%;
+  padding-left: 5%;
+  font-size:40px ;
+}
+
+.course-icon{
+ margin-right: 5%; 
+
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  margin-top: 2%;
+  padding-left: 5%;
+}
+
+.companies{
+  border: 1px solid grey;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-right: 35%;
+}
+
+.companies h3{
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.companies p{
+  padding-top: 2px;
+  padding-left: 2%;
+  font-size: 19px;
+  color: grey;
+}
+
+.companylogo{
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+
+
+
+
+.coursecontent-1{
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 1px solid black;
+  margin-right: 35%;
+}
+
+.coursecontent{
+  margin-left: 5%;
+  border: 1px solid black;
+  margin-right: 35%;
+}
+
+.coursecontent h3,.coursecontent-1 h3{
+  font-size: 30px;
+  background-color: white;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.courseicon{
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+.intact{
+  padding-left: 5%;
+
+}
+
+.drop{
+  width: 980px;
+  height: 70px;
+  font-size: 30px;
+  appearance: none;
+  padding-left: 100px;
+  background: url("./image/drop.svg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+}
+
+.shows{
+  background-color: #8c8e8c;
+  display: block;
+  
+}
+.hide{
+  background-color: aqua;
+  display:none;
+}
+
+.showed{
+  display: block;
+}
+
+.visible{
+  margin-top: 3%;
+  margin-left: 5%;
+  position: relative;
+  width: 980px;
+  height: 60px;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.cou h4,.cou h5{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.cou h4{
+  font-size: 30px;
+}
+
+.req{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.req h3{
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+.req ul{
+  padding-left: 2%;
+  font-size: 20px;
+
+}
+
+.req li::marker{
+
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.desc{
+  margin-left: 5%;
+  margin-right: 35%;
+}
+
+.desc p{
+  font-size: 18px;
+  font-weight: 100px;
+  padding-top: 5px;
+}
+
+.bold{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.italic{
+  font-style: italic;
+}
+.desc ul{
+    font-size: 18px;
+}
+.whitebox{
+  
+  display: none !important; 
+  
+}
+
+.greybox{
+  color: blue;
+}
+
+
+.FReview{
+  margin-left: 5%;
+  border: .5px solid gray;
+  margin-right: 35%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+
+.userdetails{
+  float: left;
+  margin-right:10px;
+}
+
+.FRstars{
+  margin-top: 2%;
+}
+.FReview p{
+  font-size: 20px;
+}
+.FReview h6{
+  font-size: 18px;
+}
+
+.reviewbtn{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.FRreport{
+  margin-left: 3%;
+}
+
+.FReview a{
+  color: black;
+}
+
+.bought{
+  margin-left: 5%;
+  margin-right: 35%;
+  margin-bottom: 5%;
+  height: 130px;
+  border-bottom: 1px solid grey;
+}
+
+.coursecard h1{
+  padding-bottom: 2%;
+  margin-left: 5%;
+}
+
+.bought h6{
+
+  width: 400px;
+}
+.bought p,.bought h6{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.bought button{
+  
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.ccdetails{
+  float: left;
+}
+
+.img{
+  margin-right: 15px;
+}
+.extra{
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.p{
+  
+  line-height: 20%;
+}
+
+.discount{
+  margin-top: 20%;
+}
+
+.rating{
+   color: rgb(200, 157, 64);
+}
+
+
+
+
+.Instructor{
+  margin-left: 5%;
+  margin-right: 35%;
+}
+
+.Instructor h2{
+  margin-bottom: 2%;
+}
+.Instructor p{
+  font-size: 18px;
+}
+
+.Instructor span{
+  font-size: 23px;
+}
+.instDetails{
+  margin-bottom: 5%;
+}
+
+.instDetails{
+  padding-top: 2%;
+}
+
+.exp{
+  margin-bottom: 2%;
+}
+
+.review{
+  margin-left: 5%;
+  margin-right: 35%;
+}
+
+.review-container{
+  display: grid;
+  grid-template-columns: auto auto ;
+  margin-top: 2%;
+}
+.review h2{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.x{
+  border-top: 1px solid grey;
+  margin-right: 15%;
+  margin-top: 2%;
+
+}
+.reviewdetails{
+  margin-right:50% ;
+  padding-top: 3%;
+  border-top:1px solid grey ;
+
+}
+
+.reviewdetails img{
+  margin-right: 2%;
+}
+.reviewdetails img{
+  margin-right: 2%;
+}
+
+.morecourse{
+  margin-right: 35%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+
+
+.report{
+  margin-top: 3%;
+  width: 900px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.more{
+  margin-top: 3%;
+  float: left;
+  margin-right: 3%;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding-top:3%;
+  height: 500px;
+}
+
+.foot{
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+.footbtn{
+  margin-left: 50%;
+  color: white;
+  width: 300px;
+  background-color: black;
+  border-color: 2px solid white;
+  
+}
+
+.linked{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+table{
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 900px;
+  float: left;
+}
+td{
+  font-size: 18px;
+  padding-bottom:10px ;
+  padding-right: 10%;
+}
+
+.tbbtn{
+  margin-top: 2%;
+  margin-left: 25%;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
